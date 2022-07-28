@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block body %}
+{% for i in products %}
+<h1 style="background-color:DodgerBlue;">
+
+
+
+<div class="row">
+  <div class="col-md-5">
+  </div>
+<img src="{{i.img.url}}" alt=""  style="width:250px;height:200px;"><br>
+<a href= "/shop/{{i.id}}">{{i.name}}</a><br>
+<br>
+</div>
+
+
+</h1>
+</style>
+{% endfor %}
+{% endblock %}
+  </div>
+</div>

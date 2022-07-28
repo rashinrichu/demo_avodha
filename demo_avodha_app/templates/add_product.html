@@ -1,0 +1,12 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <h1 style="background-color:black;">
+    <input type="text" name="name" placeholder="product name"><br>
+     <input type="text" name="price" placeholder="product price"><br>
+     <input type="text" name="desc" placeholder="product desc"><br>
+     <input type="file" name="img" placeholder="product img"><br>
+     <input type="submit" value="Add">
+</h1>
+    </style>
+</form>
+
